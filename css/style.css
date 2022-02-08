@@ -8,7 +8,7 @@ body{
 }
 
 .header-image{
-   background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(/images/water.png);
+   background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/water.png);
    width: 80%;
    height: 400px;
    background-size: cover;
