@@ -1,0 +1,168 @@
+html{
+   background-image: url(/images/circle-blues.png);
+}
+
+body{
+   background-image: linear-gradient(to bottom right, rgb(9, 95, 255), rgb(0, 243, 251)) center center fixed;
+   background-size: cover;
+}
+
+.header-image{
+   background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(/images/water.png);
+   width: 80%;
+   height: 400px;
+   background-size: cover;
+   background-position: center;
+   margin-right: 10%;
+   margin-left: 10%;
+   border-radius: 20px;
+}
+
+#profile{
+   background-image: linear-gradient(to bottom right, rgb(9, 95, 255), rgb(0, 243, 251));
+   width: 80%;
+   height: 150px;
+   background-position: center;
+   background-size: cover;
+   margin-right: 10%;
+   margin-left: 10%;
+   margin-top: -20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.profile-pic img{
+   position: relative;
+   height: 150px;
+   top: -75px;
+   left: 75px;
+   border-radius: 50%;
+   box-shadow: #3a3535 0 0 5px;
+}
+
+.menu {
+    float: left;
+  }
+ 
+  .menu ul {
+   list-style: none;
+   margin: 8px;
+   padding: 0;
+   margin-top: -70px;
+   margin-left: 20px;
+  }
+ 
+  .menu li {
+   padding: 0 20px;
+   font-size: 24px;
+   font-weight: bold;
+   color: rgb(246, 246, 228);
+  }
+ 
+ .links{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: -100px;
+ }
+
+ .icon-github{
+   background-image: url(/images/icon-github.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   text-decoration: none;
+ }
+
+ .icon-linkedin{
+   background-image: url(/images/icon-linkedin.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+ }
+
+ .url{
+   text-decoration: none;
+   color: beige;
+   text-shadow: 2px 2px #3a3535;
+   }
+    
+a:hover{
+   color: rgb(25, 255, 5);
+     
+ }
+
+ .hbox-left{
+   height: 300px;
+   width: 25%;
+   background-image: linear-gradient(to bottom right, rgb(29, 184, 8), rgb(93, 251, 119));
+   margin-left: 50px;
+   border-radius: 20px;
+   color: aliceblue;
+   box-shadow: #3a3535 0 0 5px;
+ }
+ 
+ .hbox-center{
+   height: 300px;
+   width: 25%;
+   background-image: linear-gradient(to bottom right, rgb(25, 29, 255), rgb(4, 174, 253));
+   border-radius: 20px;
+   box-shadow: #3a3535 0 0 5px;
+ }
+
+ .hbox-right{
+   height: 300px;
+   width: 25%;
+   background-color: black;
+   background-image: linear-gradient(to bottom right, rgb(255, 160, 7), rgb(250, 201, 121));
+   margin-right: 50px;
+   border-radius: 20px;
+   box-shadow: #3a3535 0 0 5px;
+ }
+
+ #header{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   margin-top: 30px;
+   align-items: center;
+ }
+
+ .text-header{
+   color: rgb(247, 255, 249);
+   text-shadow: 2px 2px #3a3535;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   padding-top: 10px;
+   font-size: 20px;
+ }
+
+ .form-center{
+   align-items: center;
+   justify-content: center;
+   display: block;
+   margin: auto;
+   text-align: center;
+   border-radius: 5px;
+   text-shadow: 1px 1px #3a3535;
+}
+
+.article-hobbies{
+   color: rgb(0, 0, 0);
+   text-shadow: 1px 1px #ffffff;
+   text-align: center;
+   word-wrap: normal;
+   padding: 20px;
+   font-size: 18px;
+}
+
+.article-code{
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 1px #080808;
+   text-align: center;
+   word-wrap: normal;
+   padding: 20px;
+   font-size: 18px;
+}
+
+
